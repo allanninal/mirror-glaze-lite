@@ -10,7 +10,7 @@
 
 defined( 'ABSPATH' ) || exit;
 
-define( 'MIRROR_GLAZE_LITE_VERSION', '1.1.0' );
+define( 'MIRROR_GLAZE_LITE_VERSION', '1.1.1' );
 define( 'MIRROR_GLAZE_LITE_DIR', get_template_directory() );
 define( 'MIRROR_GLAZE_LITE_URI', get_template_directory_uri() );
 

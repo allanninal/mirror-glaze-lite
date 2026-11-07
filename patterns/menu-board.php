@@ -19,6 +19,9 @@ ob_start();
 <!-- wp:heading -->
 <h2 class="wp-block-heading"><?php echo esc_html__( 'Price List', 'mirror-glaze-lite' ); ?></h2>
 <!-- /wp:heading -->
+<!-- wp:paragraph {"placeholder":"Order cut-off (filled in from WooCommerce > Settings > Shipping > Order ahead)","className":"is-style-order-cutoff"} -->
+<p class="is-style-order-cutoff"></p>
+<!-- /wp:paragraph -->
 <!-- wp:group {"layout":{"type":"default"},"className":"menu-board__group"} -->
 <div class="wp-block-group menu-board__group">
 <!-- wp:heading {"level":3} -->
@@ -412,6 +415,25 @@ ob_start();
 <!-- wp:paragraph {"align":"center","className":"mg-muted mg-note","fontSize":"small"} -->
 <p class="has-text-align-center has-small-font-size mg-muted mg-note"><?php echo esc_html__( 'Our atelier handles wheat, dairy, eggs and nuts, so we cannot promise any piece is free of them. Please ask about allergens before you order.', 'mirror-glaze-lite' ); ?></p>
 <!-- /wp:paragraph -->
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading"><?php echo esc_html__( 'The atelier today', 'mirror-glaze-lite' ); ?></h3>
+<!-- /wp:heading -->
+<!-- wp:list {"className":"is-style-schedule"} -->
+<ul class="wp-block-list is-style-schedule">
+<!-- wp:list-item -->
+<li><?php echo esc_html__( '8:00 AM · Viennoiserie, first round: croissant beurre, pain au chocolat, kouign-amann', 'mirror-glaze-lite' ); ?></li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li><?php echo esc_html__( '10:00 AM · Entremets glazed: champagne rose, pistachio praline, yuzu elderflower', 'mirror-glaze-lite' ); ?></li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li><?php echo esc_html__( '11:00 AM · Viennoiserie, second round: escargot pistache and chausson aux pommes', 'mirror-glaze-lite' ); ?></li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li><?php echo esc_html__( '1:00 PM · Macarons filled: the day\'s shells, matured overnight', 'mirror-glaze-lite' ); ?></li>
+<!-- /wp:list-item -->
+</ul>
+<!-- /wp:list -->
 </section>
 <!-- /wp:group -->
 <?php
