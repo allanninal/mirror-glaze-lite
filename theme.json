@@ -1,0 +1,417 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
+	"settings": {
+		"appearanceTools": true,
+		"useRootPaddingAwareAlignments": true,
+		"layout": {
+			"contentSize": "48rem",
+			"wideSize": "72rem"
+		},
+		"color": {
+			"defaultPalette": false,
+			"defaultGradients": false,
+			"defaultDuotone": false,
+			"palette": [
+				{
+					"slug": "bg",
+					"color": "#FAF5EE",
+					"name": "Background"
+				},
+				{
+					"slug": "surface",
+					"color": "#FFFEF9",
+					"name": "Surface"
+				},
+				{
+					"slug": "surface-2",
+					"color": "#F5EFE6",
+					"name": "Surface 2"
+				},
+				{
+					"slug": "surface-3",
+					"color": "#EDE6DB",
+					"name": "Surface 3"
+				},
+				{
+					"slug": "border-base",
+					"color": "#DDD4C8",
+					"name": "Border"
+				},
+				{
+					"slug": "border-light",
+					"color": "#EAE2D8",
+					"name": "Border (light)"
+				},
+				{
+					"slug": "text-strong",
+					"color": "#1C1917",
+					"name": "Text (strong)"
+				},
+				{
+					"slug": "text-body",
+					"color": "#2C2520",
+					"name": "Body text"
+				},
+				{
+					"slug": "text-muted",
+					"color": "#4A4038",
+					"name": "Muted text"
+				},
+				{
+					"slug": "text-subtle",
+					"color": "#6B5E54",
+					"name": "Subtle text"
+				},
+				{
+					"slug": "accent",
+					"color": "#5A7048",
+					"name": "Accent"
+				},
+				{
+					"slug": "accent-dark",
+					"color": "#3D5233",
+					"name": "Accent dark"
+				},
+				{
+					"slug": "accent-light",
+					"color": "#7A8C6A",
+					"name": "Accent light"
+				},
+				{
+					"slug": "accent-pale",
+					"color": "#E8EDE4",
+					"name": "Accent pale"
+				},
+				{
+					"slug": "accent-hover",
+					"color": "#3D5233",
+					"name": "Accent hover"
+				},
+				{
+					"slug": "accent-bg",
+					"color": "#F0F3ED",
+					"name": "Accent bg"
+				},
+				{
+					"slug": "rose",
+					"color": "#9E6B64",
+					"name": "Rose"
+				},
+				{
+					"slug": "rose-light",
+					"color": "#C8A09A",
+					"name": "Rose light"
+				},
+				{
+					"slug": "rose-pale",
+					"color": "#F5E8E6",
+					"name": "Rose pale"
+				},
+				{
+					"slug": "rose-bg",
+					"color": "#FAF0EE",
+					"name": "Rose bg"
+				},
+				{
+					"slug": "gold",
+					"color": "#9A7840",
+					"name": "Gold"
+				},
+				{
+					"slug": "gold-light",
+					"color": "#C9A96E",
+					"name": "Gold light"
+				},
+				{
+					"slug": "gold-pale",
+					"color": "#F8F0E0",
+					"name": "Gold pale"
+				},
+				{
+					"slug": "gold-bg",
+					"color": "#FAF5E8",
+					"name": "Gold bg"
+				},
+				{
+					"slug": "ivory",
+					"color": "#FAF5EE",
+					"name": "Ivory"
+				},
+				{
+					"slug": "dark-bg",
+					"color": "#1C1917",
+					"name": "Dark bg"
+				},
+				{
+					"slug": "dark-surface",
+					"color": "#2C2520",
+					"name": "Dark surface"
+				}
+			]
+		},
+		"typography": {
+			"defaultFontSizes": false,
+			"fluid": true,
+			"fontFamilies": [
+				{
+					"name": "Gilda Display",
+					"slug": "display",
+					"fontFamily": "\"Gilda Display\", Georgia, serif",
+					"fontFace": [
+						{
+							"fontFamily": "Gilda Display",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"fontDisplay": "swap",
+							"src": [
+								"file:./assets/fonts/gilda-display-latin-400-normal.woff2"
+							]
+						}
+					]
+				},
+				{
+					"name": "Jost",
+					"slug": "body",
+					"fontFamily": "\"Jost\", ui-sans-serif, system-ui, sans-serif",
+					"fontFace": [
+						{
+							"fontFamily": "Jost",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"fontDisplay": "swap",
+							"src": [
+								"file:./assets/fonts/jost-latin-400-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "Jost",
+							"fontStyle": "normal",
+							"fontWeight": "500",
+							"fontDisplay": "swap",
+							"src": [
+								"file:./assets/fonts/jost-latin-500-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "Jost",
+							"fontStyle": "normal",
+							"fontWeight": "600",
+							"fontDisplay": "swap",
+							"src": [
+								"file:./assets/fonts/jost-latin-600-normal.woff2"
+							]
+						}
+					]
+				}
+			],
+			"fontSizes": [
+				{
+					"slug": "small",
+					"name": "Small",
+					"size": "0.875rem",
+					"fluid": false
+				},
+				{
+					"slug": "medium",
+					"name": "Medium",
+					"size": "1rem",
+					"fluid": false
+				},
+				{
+					"slug": "large",
+					"name": "Large",
+					"size": "1.25rem",
+					"fluid": {
+						"min": "1.125rem",
+						"max": "1.25rem"
+					}
+				},
+				{
+					"slug": "x-large",
+					"name": "Extra large",
+					"size": "2.25rem",
+					"fluid": {
+						"min": "1.75rem",
+						"max": "2.25rem"
+					}
+				},
+				{
+					"slug": "xx-large",
+					"name": "Huge",
+					"size": "3rem",
+					"fluid": {
+						"min": "2.25rem",
+						"max": "3rem"
+					}
+				},
+				{
+					"slug": "huge",
+					"name": "Display",
+					"size": "4.5rem",
+					"fluid": {
+						"min": "2.75rem",
+						"max": "4.5rem"
+					}
+				}
+			]
+		},
+		"spacing": {
+			"units": [
+				"px",
+				"em",
+				"rem",
+				"vh",
+				"vw",
+				"%"
+			]
+		}
+	},
+	"styles": {
+		"color": {
+			"background": "var(--wp--preset--color--bg)",
+			"text": "var(--wp--preset--color--text-body)"
+		},
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--body)",
+			"fontSize": "var(--wp--preset--font-size--medium)",
+			"lineHeight": "1.7"
+		},
+		"spacing": {
+			"padding": {
+				"left": "clamp(1.25rem, 4vw, 2.5rem)",
+				"right": "clamp(1.25rem, 4vw, 2.5rem)"
+			},
+			"blockGap": "1.25rem"
+		},
+		"elements": {
+			"heading": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--display)",
+					"fontWeight": "400",
+					"lineHeight": "1.2",
+					"letterSpacing": "-0.01em"
+				},
+				"color": {
+					"text": "var(--wp--preset--color--text-strong)"
+				}
+			},
+			"h1": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--huge)",
+					"lineHeight": "1.1"
+				}
+			},
+			"h2": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--xx-large)"
+				}
+			},
+			"h3": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--large)"
+				}
+			},
+			"h4": {
+				"typography": {
+					"fontSize": "1.125rem"
+				}
+			},
+			"link": {
+				"color": {
+					"text": "var(--wp--preset--color--accent-dark)"
+				},
+				":hover": {
+					"color": {
+						"text": "var(--wp--preset--color--accent)"
+					}
+				}
+			},
+			"button": {
+				"color": {
+					"background": "var(--wp--preset--color--accent)",
+					"text": "var(--wp--preset--color--bg)"
+				},
+				"border": {
+					"radius": "999px"
+				},
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--small)",
+					"fontWeight": "700",
+					"letterSpacing": "0.02em"
+				},
+				"spacing": {
+					"padding": {
+						"top": "0.875rem",
+						"bottom": "0.875rem",
+						"left": "1.75rem",
+						"right": "1.75rem"
+					}
+				},
+				":hover": {
+					"color": {
+						"background": "var(--wp--preset--color--accent-dark)"
+					}
+				},
+				":focus": {
+					"outline": {
+						"color": "var(--wp--preset--color--accent)",
+						"offset": "2px",
+						"style": "solid",
+						"width": "2px"
+					}
+				}
+			}
+		},
+		"blocks": {
+			"core/button": {
+				"variations": {
+					"outline": {
+						"border": {
+							"width": "2px",
+							"color": "var(--wp--preset--color--accent)"
+						},
+						"color": {
+							"background": "transparent",
+							"text": "var(--wp--preset--color--accent-dark)"
+						}
+					}
+				}
+			},
+			"core/site-title": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--display)",
+					"fontSize": "1.5rem",
+					"fontWeight": "400"
+				},
+				"elements": {
+					"link": {
+						"color": {
+							"text": "var(--wp--preset--color--text-strong)"
+						}
+					}
+				}
+			},
+			"core/navigation": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--small)",
+					"fontWeight": "600"
+				}
+			}
+		}
+	},
+	"templateParts": [
+		{
+			"name": "header",
+			"title": "Header",
+			"area": "header"
+		},
+		{
+			"name": "footer",
+			"title": "Footer",
+			"area": "footer"
+		}
+	],
+	"customTemplates": [],
+	"title": "Mirror Glaze"
+}
